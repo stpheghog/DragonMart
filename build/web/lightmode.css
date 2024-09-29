@@ -8,35 +8,35 @@ and open the template in the editor.
     Author     : Stephanie
 */
 
-.logo {
+.logo { /* for logo*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo-img{
-    width: 80px;
+    width: 70px;
     border-radius: 50px;
 }
 
 .logo-text {
     font-size: 20px;
-    color: green;
+    color:white;
     font-weight: bold;
 }
-.topnav {    
+.topnav {    /*for nav bar*/
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: #640D14;
+    color: #640D14;
     display: flex; 
     align-items: center;
 }
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -48,9 +48,8 @@ and open the template in the editor.
     color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
+.topnav a.home {
+    background-color: #AD2831;
     color: white;
 }
 .nav-list {
@@ -67,8 +66,13 @@ and open the template in the editor.
     gap: 15px; 
 }
 
-.registration {
+.registration { /* for login and sign up buttons or user profile button*/
     padding: 14px 20px; 
     min-width: 60px;
     text-align: center;
+}
+
+body {
+    padding-top: 60px; /* ensures that the navbar doesnt overlap to the point u cant see the top of the page */
+    background-color: #9B2E41;
 }

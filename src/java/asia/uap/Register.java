@@ -36,7 +36,7 @@ public class Register extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
-            out.println("<head>");
+            out.println("<head>");  
             out.println("<title>Servlet Register</title>");            
             out.println("</head>");
             out.println("<body>");

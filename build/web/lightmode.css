@@ -8,22 +8,27 @@ and open the template in the editor.
     Author     : Stephanie
 */
 
-.logo { /* for logo*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.logo { /* for logo */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo-img{
+.logo-img {
     width: 70px;
     border-radius: 50px;
 }
 
 .logo-text {
     font-size: 20px;
-    color:white;
+    color: white;
     font-weight: bold;
 }
-.topnav {    /*for nav bar*/
+.topnav { /* for nav bar */
     position: fixed;
     top: 0;
     left: 0;
@@ -63,16 +68,40 @@ and open the template in the editor.
 .auth-links {
     margin-left: auto; 
     display: flex; 
-    gap: 15px; 
 }
 
-.registration { /* for login and sign up buttons or user profile button*/
+.registration { /* for login and sign up buttons or user profile button */
     padding: 14px 20px; 
     min-width: 60px;
     text-align: center;
 }
 
-body {
-    padding-top: 60px; /* ensures that the navbar doesnt overlap to the point u cant see the top of the page */
-    background-color: #9B2E41;
+.registration-container {
+    padding: 14px 20px; 
+    min-width: 300px;      
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
 }
+
+input[type="submit"] {
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 200px;
+}
+
+body {
+    padding-top: 60px; /* no overlapping nav bar */
+    background-color: #9B2E41;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    min-height: 100vh; 
+}
+

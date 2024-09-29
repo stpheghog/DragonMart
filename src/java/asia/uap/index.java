@@ -48,21 +48,15 @@ public class index extends HttpServlet {
             out.println("<p class=\"logo-text\"> DragonMart </p>");
             out.println("</div>");
             out.println("<ul class=\"nav-list\">");
-            out.println("<li><a href=\"#home\" class=\"home\">Home</a></li>");
-            out.println("<li><a href=\"#shop\">Shop</a></li>");
+            out.println("<li><a href=\"index.jsp\" class=\"home\">Home</a></li>");
+            out.println("<li><a href=\"shop.jsp\">Shop</a></li>");
             out.println("<li><a href=\"#contact\">Contact</a></li>");
             out.println("<li><a href=\"#about\">About</a></li>");
             out.println("</ul>");
             out.println("<div class=\"auth-links\">");
             
-            if (loggedin == true){
-                out.println("<a href=\"#login\" class=\"registration\">Login</a>");
-                out.println("<a href=\"#signup\" class=\"registration\">Sign up</a>");
-            }
-            else{
-                out.println("<a href=\"#login\" class=\"registration\">Login</a>");
-                out.println("<a href=\"#signup\" class=\"registration\">Sign up</a>");
-            }
+                out.println("<a href=\"login.jsp\" class=\"registration\">Login</a>");
+                out.println("<a href=\"signup.jsp\" class=\"registration\">Sign up</a>");
             
             out.println("</div>");
             out.println("</nav>"); //NAV BAR ENDS HERE

@@ -37,17 +37,19 @@
             <form action="do.register" method = POST>
 
                 First Name: <br>
-                <input type = "text" name = "fn"><br><br>
+                <input type = "text" name = "fn" required><br><br>
                 Last Name: <br>
-                <input type = "text" name = "ln"><br><br>
+                <input type = "text" name = "ln" required><br><br>
+                Username: <br>
+                <input type = "text" name = "username"required><br><br>
                 Email address: <br>
-                <input type = "text" name = "email"><br><br>
+                <input type = "text" name = "email"required><br><br>
                 Date of Birth: <br>
                 <input type = "date" name = "dob"><br><br>
                 Password: <br>
-                <input type = "password" name = "password"><br><br>
+                <input type = "password" name = "password"required><br><br>
                 Confirm Password: <br>
-                <input type = "password" name = "check"><br><br>
+                <input type = "password" name = "check"required><br><br>
                 
                 <input type = "submit" name = "submit" value = "Register"><br><br>
                 

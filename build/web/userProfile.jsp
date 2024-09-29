@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title> ${pageContext.session.getAttribute("username")} </title>
     </head>
     <body>
+        
+        <img src = ${pageContext.session.getAttribute("photo")}><br>
+            <p> ${pageContext.session.getAttribute("aboutme")} </p><br>
+            
         <h1>Hello World!</h1>
     </body>
 </html>

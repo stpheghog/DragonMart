@@ -37,9 +37,9 @@
             <form action="do.login" method = POST>
 
                 Email address: <br>
-                <input type = "text" name = "email"><br><br>
+                <input type = "text" name = "email" required><br><br>
                 Password: <br>
-                <input type = "password" name = "password"><br><br>
+                <input type = "password" name = "password" required><br><br>
                 <input type = "submit" name = "submit" value = "Login"><br><br>
 
             </form>
